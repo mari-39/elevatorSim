@@ -12,3 +12,5 @@ lazy val root = (project in file("."))
   .settings(
     name := "elevatorSim"
   )
+
+scalafmtOnCompile := true
